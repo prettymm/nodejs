@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		body{
+			background: gray;
+		}
+		div{
+			width: 300px;
+			height: 300px;
+			background: yellow;
+		}
+		p{
+			line-height: 150%;
+			font: 24px;
+		}
+	</style>
+</head>
+<body>
+
+<div id="divBox">
+	<p>简单的说 Node.js 就是运行在服务端的 JavaScript。Node.js 是一个基于 Chrome JavaScript 运行时建立的一个平台。Node.js 是一个事件驱动 I/O 服务端 JavaScript 环境，基于 Google 的 V8 引擎，V8 引擎执行 Javascript 的速度非常快，性能非常好。</p>
+</div>
+<script>
+	document.getElementById("divBox").onclick=function(){
+		console.log("aa");
+		if(this.style.background == "yellow"){
+			this.style.background="red";
+		}else{
+			this.style.background="yellow";
+		}
+		
+	}
+</script>
+</body>
+</html>
