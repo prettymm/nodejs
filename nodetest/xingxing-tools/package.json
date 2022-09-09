@@ -1,0 +1,11 @@
+{
+  "name": "xingxing-tools",
+  "version": "1.0.0",
+  "description": "提供格式化时间、HTMLEscape 相关功能",
+  "main": "index.js",
+  "keywords": [
+  	"xingxing-tools", 
+  	"dateFormat", 
+  	"escape"],
+  "license": "ISC"
+}
